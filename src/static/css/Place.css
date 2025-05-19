@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "baskerville";
+    src: url("../fonts/fonts/baskerville.ttf");
+  }
+
+.place{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+/* .place_text{
+    background-image: url("../images/mesto.svg"), url("../images/arka.svg");
+    background-size: 40vw 20vw;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 50vw;
+} */
+
+
+.place_text{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.bg1, .bg2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+
+    .bg1 {
+      background-image: url("../images/mesto.svg"); /* нижний фон */
+      z-index: 1;
+      background-size: 30vw 30vw;
+    }
+
+    .bg2 {
+      background-image: url("../images/arka.svg"); /* верхний фон */
+      z-index: 2;
+      background-size: 100vh 90vw;
+      background-position: top;
+    }
+
+.place_image{
+    background-image: url("../images/C_02_D_Seneca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.text{
+    color: #fff;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 75vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}

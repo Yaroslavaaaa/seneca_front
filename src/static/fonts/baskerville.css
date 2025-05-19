@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Baskerville';
+	src: url('../fonts/baskerville.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/baskerville.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/baskerville.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/baskerville.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/baskerville.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/baskerville.svg#baskerville') format('svg'); /* Chrome < 4, Legacy iOS */
+}

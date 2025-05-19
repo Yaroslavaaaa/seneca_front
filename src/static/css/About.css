@@ -1,0 +1,93 @@
+.about_block{
+    background-image: url("../images/karta.svg");
+    background-size: 75vw 75vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 150vh;
+    position: absolute;
+    background-position: 37vw center;
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+
+
+    /* -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect; */
+}
+
+
+.about {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px;
+    margin: 0;
+    margin-top: -20vh;
+    margin-right: 20vw; */
+    display: flex;
+
+  }
+
+
+  .column_2{
+    margin-top: 30vh;
+  }
+
+
+  .about_info{
+    margin-top: -30vh;
+  }
+  
+  /* .about_info {
+    height: 100px;
+  }
+  
+  .about_info:nth-child(even) {
+    margin-top: 50vh; 
+  } */
+
+
+
+  .infrastruktura{
+    background-image: url("../images/infrastruktura.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 26vw;
+    height: 90vh;
+    background-size: 60vh 50vw;
+}
+
+
+.medeu{
+    background-image: url("../images/medeu.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 26vw;
+    height: 90vh;
+    background-size: 60vh 50vw;
+}
+
+
+.terrenkur{
+    background-image: url("../images/terrenkur.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 26vw;
+    height: 90vh;
+    background-size: 60vh 50vw;
+}
+
+
+.polozhenie{
+    background-image: url("../images/polozhenie.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 26vw;
+    height: 90vh;
+    background-size: 60vh 50vw;
+}
+
+

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "baskerville";
+  src: url("../fonts/fonts/baskerville.ttf");
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #fff;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+
+
+    background: rgba(0, 0, 0, 0.2); /* прозрачный белый */
+    backdrop-filter: blur(10px); /* размытие фона */
+    -webkit-backdrop-filter: blur(10px); /* для Safari */
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    padding: 20px;
+    color: white;
+  }
+  .header__logo img {
+    height: 16vh;
+    margin-left: 13vw;
+  }
+  .header__contacts a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(175, 149, 120);
+    font-size: 3vh;
+    margin-right: 2vw;
+    font-family: baskerville;
+  }
+
+
+  .header{
+    padding: 0vh 10vw;
+  }
+
+
+  .menu {
+    width: 4vw;
+    height: 4vw;
+    background-image: url("../images/menu.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+
+
+  .phone {
+    width: 4vw;
+    height: 4vw;
+    background-image: url("../images/phone.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .header__contacts{
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  

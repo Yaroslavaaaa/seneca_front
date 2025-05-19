@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "baskerville";
+    src: url("../fonts/fonts/baskerville.ttf");
+}
+
+
+
+
+.bacground-image{
+    margin-top: -20vh;
+    height: 160vh;
+    background-image: url(../images/C_01_Kommercia_Senek.jpg);
+}
+
+.head_banner_container{
+    padding-top: 43vh;
+    color: #fff;
+    display: flex;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.header_text{
+    font-family: baskerville;
+    padding: 0 5vw;
+    width: 50vw;
+}
+
+
+.text_h{
+    font-size: 5svw;
+    margin-left: 5vw;
+    line-height: 13vh;
+}
+
+
+
+.application_button{
+    width: 20vw;
+    border-radius: 3em;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+    width: 28vw;
+    height: 14vw;
+    background-image: url("../images/info.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10vw;
+    margin-top: -2vw;
+}
+
+
+.firstRow{
+    display: flex;
+}
+
+.info-block{
+    margin-left: 2vw;
+}
+
+
+.number{
+    font-size: 3vw;
+    color: rgb(175, 149, 120);
+}
