@@ -12,7 +12,6 @@
 
 .live{
     background-image: url("../images/live.svg");
-    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: top center; 
     height: 100vh;
@@ -23,8 +22,6 @@
 
 .prez{
     background-image: url("../images/prez.png");
-    /* background-size: contain;
-    background-repeat: no-repeat; */
     background-repeat: no-repeat;
     background-position: top center; 
     height: 100vh;
@@ -39,7 +36,7 @@
     background-repeat: no-repeat;
     height: 10vh;
     background-size: 16vw 10vh;
-    margin-top: 54vh;
+    margin-top: 44vh;
     margin-left: 14vw;
 }
 
@@ -52,6 +49,6 @@
     background-repeat: no-repeat;
     height: 15vh;
     background-size: 18vw 15vh;
-    margin-top: 51vh;
-    margin-left: 13vw;
+    margin-top: 41.2vh;
+    margin-left: 13.4vw;
 }

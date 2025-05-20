@@ -28,15 +28,18 @@
     background-image: url("../images/osob_dom.svg");
     background-size: 50vw 330vh; 
     background-repeat: no-repeat;
+    margin-top: -27vh;
 }
 
 
 .objects{
-    height: 330vh;
+    height: 100vh;
     background-image: url("../images/strelki.svg");
-    background-size: 50vw 120vh; 
+    background-size: 40vw 120vh; 
     background-repeat: no-repeat;
-    margin-top: 12vh;
+    background-position: right;
+    margin-top: -15vh;
+    margin-right: 2vw;
 }
 
 
@@ -51,23 +54,26 @@
 .objects_images_first{
     width: 4vw;
     height: 4vw;
+    margin-top: -1vh;
+    margin-left: 2vw;
 }
 
 .objects_images{
     width: 4vw;
     height: 4vw;
-    margin-top: 5vh;
+    margin-top: 3.5vh;
+    margin-left: 2vw;
 }
 
 .osobennosti_images{
     display: flex;flex-direction: column;
     width: 18vw;
-    height: 59.5vh;
+    height: 50vh;
 }
 
 
 .architecture{
-    margin-top: 92vh;
+    margin-top: 103.5vh;
     margin-left: 4.5vw;
 }
 

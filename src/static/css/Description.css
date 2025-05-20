@@ -1,6 +1,7 @@
 .description_block{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: -45vh;
 }
 
 
@@ -10,7 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 110vh;
-    background-size: 110vw 130vh;
+    background-size: 110vw 115vh;
     margin-left: -53vw;
     margin-top: -20vh;
 }
