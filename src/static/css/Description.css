@@ -1,0 +1,36 @@
+.description_block{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+.description_text{
+    background-image: url("../images/des.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-size: 110vw 130vh;
+    margin-left: -53vw;
+    margin-top: -20vh;
+}
+
+
+.description_image{
+    background-image: url("../images/09-09.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    background-size: 100% 100vh;
+}
+
+
+.description_text2{
+    background-image: url("../images/des_2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 96% 100vh;
+    margin-top: -60vh;
+    margin-left: 2vw;
+}

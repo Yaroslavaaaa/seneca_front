@@ -2,7 +2,7 @@ import React from 'react';
 import '../static/css/Place.css';
 
 const Place = () => (
-  <div className='place'>
+  <div className='place' id='place'>
     <div className='place_text'>
         <div class="bg1"></div>
         <div class="bg2"></div>

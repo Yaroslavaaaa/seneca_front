@@ -1,0 +1,49 @@
+
+
+.footer_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid rgb(175, 149, 120);
+    border-bottom: 1px solid rgb(175, 149, 120);
+    margin-top: 10vh;
+    height: 57.5vh;
+
+}
+
+.footer_info{
+
+    background-image: url("../images/footer_info.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    background-size: 40vw 30vh;
+    border-right: 1px solid rgb(175, 149, 120);
+    margin-top: 15vh;
+    margin-left: 10vw;
+
+}
+
+
+.inst{
+    background-image: url("../images/inst.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+    background-size: 10vh 10vh;
+    border-bottom: 1px solid rgb(175, 149, 120);
+    margin-left: 13vw;
+}
+
+
+.license{
+    color: rgb(175, 149, 120);;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 50vw;
+
+
+}
+
+.license_link{
+    color: #fff;
+}

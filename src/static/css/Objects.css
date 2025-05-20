@@ -1,0 +1,88 @@
+.objects_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 330vh;
+}
+
+
+.image{
+    height: 100vh;
+    background-image: url("../images/C_01_Panorama_Seneka.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.image_2{
+    height: 100vh;
+    background-image: url("../images/C_02_Panorama_Seneka.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30vh;
+}
+
+
+
+.osobennosti{
+    height: 330vh;
+    background-image: url("../images/osob_dom.svg");
+    background-size: 50vw 330vh; 
+    background-repeat: no-repeat;
+}
+
+
+.objects{
+    height: 330vh;
+    background-image: url("../images/strelki.svg");
+    background-size: 50vw 120vh; 
+    background-repeat: no-repeat;
+    margin-top: 12vh;
+}
+
+
+
+.images{
+    display: flex;
+    flex-direction: column;
+    padding-top: 18vh;
+    margin-left: 5vw;
+}
+
+.objects_images_first{
+    width: 4vw;
+    height: 4vw;
+}
+
+.objects_images{
+    width: 4vw;
+    height: 4vw;
+    margin-top: 5vh;
+}
+
+.osobennosti_images{
+    display: flex;flex-direction: column;
+    width: 18vw;
+    height: 59.5vh;
+}
+
+
+.architecture{
+    margin-top: 92vh;
+    margin-left: 4.5vw;
+}
+
+
+.parking{
+    margin-left: 27.5vw;
+}
+
+
+
+.safety{
+    margin-left: 4.5vw;
+}
+
+
+.materials{
+    margin-left: 27.5vw;
+}

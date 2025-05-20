@@ -1,0 +1,56 @@
+.videos-list {
+  width: 74vw;
+  margin-left: 13vw;
+}
+
+
+@font-face {
+    font-family: "baskerville";
+    src: url("../fonts/fonts/baskerville.ttf");
+}
+
+.video-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.video-date {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: rgb(175, 149, 120);
+  font-family: baskerville;
+  margin-top: 5vh;
+}
+
+
+.description{
+    color: #fff;
+    font-family: baskerville;
+    white-space: pre-wrap;
+    line-height: 3.5vh;
+    margin-top: 5vh;
+}
+
+.video-player iframe {
+  width: 35vw;
+  height: 45vh;
+  min-height: 200px;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+
+.no-videos {
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+
+.video-filter{
+    margin-top: 5vh;
+}
+
+
+.filter-bar{
+    margin-top: 5vh;
+}

@@ -1,0 +1,73 @@
+.photo-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 10vh;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-image {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+.carousel-arrow.left  { left: 1rem; }
+.carousel-arrow.right { right: 1rem; }
+
+.carousel-dots {
+  text-align: center;
+  padding: 1rem 0;
+}
+.carousel-dot {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0 0.25rem;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.carousel-dot.active {
+  background: #c3ab8c;
+}
+
+
+@font-face {
+    font-family: "baskerville";
+    src: url("../fonts/fonts/baskerville.ttf");
+}
+
+
+.gallery{
+    font-family: baskerville;
+    color: #fff;
+    font-size: 2.5vw;
+    margin-bottom: 5vh;
+}

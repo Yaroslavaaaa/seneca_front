@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 150vh;
-    position: absolute;
+    position: relative;
     background-position: 37vw center;
     margin-top: 5vw;
     display: grid;
@@ -12,21 +12,10 @@
     
 
 
-
-    /* -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
-  mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
-  -webkit-mask-composite: destination-in;
-  mask-composite: intersect; */
 }
 
 
 .about {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 40px;
-    margin: 0;
-    margin-top: -20vh;
-    margin-right: 20vw; */
     display: flex;
 
   }
@@ -41,13 +30,6 @@
     margin-top: -30vh;
   }
   
-  /* .about_info {
-    height: 100px;
-  }
-  
-  .about_info:nth-child(even) {
-    margin-top: 50vh; 
-  } */
 
 
 
